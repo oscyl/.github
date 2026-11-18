@@ -3,6 +3,5 @@
 Oscyl's code, issues and pull requests live in
 [oscyl/oscyl](https://github.com/oscyl/oscyl). Its
 [CONTRIBUTING.md](https://github.com/oscyl/oscyl/blob/main/CONTRIBUTING.md)
-covers setting up, running the checks and sending a change, and the
-[driver guide](https://github.com/oscyl/oscyl/blob/main/docs/drivers.md)
-covers adding a synth.
+says how to send a change. The [documentation](https://oscyl.github.io/oscyl/docs/) covers building, the
+checks and adding a synth.

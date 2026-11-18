@@ -10,6 +10,7 @@ on Linux, Windows, macOS, Android, iOS and the command line.
 
 [**Download**](https://github.com/oscyl/oscyl/releases) ·
 [Website](https://oscyl.github.io/oscyl/) ·
+[Documentation](https://oscyl.github.io/oscyl/docs/) ·
 [Source](https://github.com/oscyl/oscyl) ·
 [Discussions](https://github.com/oscyl/oscyl/discussions)
 
@@ -30,10 +31,14 @@ on Linux, Windows, macOS, Android, iOS and the command line.
   rename and back up with the synth unplugged.
 - **Editor.** Every parameter, stage by stage, with a live graph. Each change
   plays on the synth at once; hold Compare to hear the saved sound.
-- **Generate.** Six new sounds from a character and four dials, and new
-  user oscillators for the minilogue xd and prologue.
+- **Generate.** Six new sounds from a character and four dials. On the
+  minilogue xd and prologue, also new user oscillators, made with Oscyl's
+  own logue SDK unit.
 - **Safe sync.** Oscyl backs up the slots it will touch, then writes only the
   programs you changed. Factory slots never change.
+
+Oscyl is not a DAW, a sequencer or a preset converter: your synth plays, and
+Oscyl keeps and shapes its sounds.
 
 <div align="center">
 <picture>
@@ -57,7 +62,7 @@ on Linux, Windows, macOS, Android, iOS and the command line.
 | Linux | Flatpak (GNOME app) and the `oscyl` CLI |
 | Windows, macOS | Desktop app and CLI; not yet tested with a synth |
 | Android | APK for phones, foldables and tablets |
-| iOS | [Build from source](https://github.com/oscyl/oscyl/blob/main/docs/building.md#ios) |
+| iOS | [Build from source](https://oscyl.github.io/oscyl/docs/how-to/mobile.html#run-the-ios-app) |
 
 All downloads are on the [Releases](https://github.com/oscyl/oscyl/releases)
 page. Oscyl is **pre-alpha**.
@@ -65,9 +70,11 @@ page. Oscyl is **pre-alpha**.
 ## Help wanted
 
 Hardware testers, drivers for more synths and translations. Start with
-[CONTRIBUTING.md](https://github.com/oscyl/oscyl/blob/main/CONTRIBUTING.md)
-and the [driver guide](https://github.com/oscyl/oscyl/blob/main/docs/drivers.md),
-or ask in [Discussions](https://github.com/oscyl/oscyl/discussions).
+[CONTRIBUTING.md](https://github.com/oscyl/oscyl/blob/main/CONTRIBUTING.md).
+To add a synth, follow the tutorial
+[Your first driver](https://oscyl.github.io/oscyl/docs/tutorials/first-driver.html), then
+[Add a driver for a new synth](https://oscyl.github.io/oscyl/docs/how-to/add-a-synth.html). Questions are
+welcome in [Discussions](https://github.com/oscyl/oscyl/discussions).
 
 <sub>Oscyl is an independent project under MIT OR Apache-2.0, not affiliated
 with or endorsed by any synth maker. "KORG", "minilogue", "prologue" and
